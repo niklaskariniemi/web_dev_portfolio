@@ -3,15 +3,14 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Home from './pages/Home/Home';
 
 
-function App() {
+function App() 
+{
   return (
-    <div>
-      <BrowserRouter>
+    <BrowserRouter>
       <Routes>
-        <Route path = '/' element = { <Home/> }/>
+      <Route path = '/' element = { <Home/> }/>
       </Routes>
-      </BrowserRouter>
-    </div>
+    </BrowserRouter>
   );
 }
 
